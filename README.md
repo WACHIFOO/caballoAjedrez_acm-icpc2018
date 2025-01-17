@@ -1,8 +1,7 @@
-# caballoAjedrez_acm-icpc2018
-
 # Problem J
-Uncrossed Knight’s Tour
-Time limit: 2 seconds
+### Uncrossed Knight’s Tour
+### Time limit: 2 seconds
+
 A well-known puzzle is to “tour” all the squares of an 8 × 8 chessboard using a knight, which is a piece
 that can move only by jumping one square in one direction and two squares in an orthogonal direction.
 The knight must visit every square of the chessboard, without repeats, and then return to its starting
@@ -20,15 +19,14 @@ solution for the first sample input, a 6 × 6 board.
 # Input
 The input consists of a single line containing two integers m (1 ≤ m ≤ 8) and n (1 ≤ n ≤ 1015), giving
 the dimensions of the rectangular chessboard.
-Output
+
+# Output
 Display the largest number of squares that a knight can visit in a tour on an m × n chessboard that does
 not cross its path. If no such tour exists, display 0
 
-Sample Input 1 Sample Output 1
-6 6 - 12
-Sample Input 2 Sample Output 2
-8 3 - 6
-Sample Input 3 Sample Output 3
-7 20 - 80
-Sample Input 4 Sample Output 4
-2 6 - 0
+ | Sample Input | Sample Output |
+| ----------- | ----------- |
+| 6, 6 | 12 |
+| 8, 3 | 6 |
+| 7, 20 | 80 |
+| 2, 6 | 0 |
